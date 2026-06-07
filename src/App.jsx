@@ -39,7 +39,7 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <a href="/resume.pdf" download className="bg-white text-slate-900 px-5 py-2 rounded-full hover:bg-slate-200 transition text-sm font-bold shadow-lg">
+            <a href="/MunavvarKhan_CV_ATS.pdf" download className="bg-white text-slate-900 px-5 py-2 rounded-full hover:bg-slate-200 transition text-sm font-bold shadow-lg">
               Resume
             </a>
           </div>

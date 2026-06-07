@@ -39,7 +39,7 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <a href="/MunavvarKhan_CV_ATS.pdf" download className="bg-white text-slate-900 px-5 py-2 rounded-full hover:bg-slate-200 transition text-sm font-bold shadow-lg">
+            <a href="/MunavvarKhan_CV.pdf" download className="bg-white text-slate-900 px-5 py-2 rounded-full hover:bg-slate-200 transition text-sm font-bold shadow-lg">
               Resume
             </a>
           </div>
@@ -65,7 +65,7 @@ const Navbar = () => {
                 </a>
               ))}
              </div>
-            <a href="/resume.pdf" download className="relative z-10 bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white px-8 py-3 rounded-full font-bold text-lg mt-8 shadow-lg">
+            <a href="/MunavvarKhan_CV.pdf" download className="relative z-10 bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white px-8 py-3 rounded-full font-bold text-lg mt-8 shadow-lg">
               Download Resume
             </a>
           </motion.div>

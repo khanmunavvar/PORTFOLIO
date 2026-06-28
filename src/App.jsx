@@ -91,7 +91,7 @@ const Hero = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 via-fuchsia-400 to-purple-400">Experiences</span>
           </h1>
           <div className="text-2xl font-light text-slate-400 mb-8 h-[40px]">
-             I am a <TypeAnimation sequence={['React Developer', 2000, 'Frontend Specialist', 2000]} wrapper="span" speed={50} className="text-white font-medium" repeat={Infinity} />
+             I am a <TypeAnimation sequence={['Python Developer', 2000, 'Frontend Specialist', 2000]} wrapper="span" speed={50} className="text-white font-medium" repeat={Infinity} />
           </div>
           <div className="flex gap-4 justify-center md:justify-start">
              <a href="#contact-footer" className="px-8 py-3.5 rounded-full bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white font-semibold hover:shadow-[0_0_20px_rgba(139,92,246,0.5)] transition duration-300">Let's Talk</a>
@@ -170,19 +170,19 @@ const Skills = () => {
           <div className="bg-slate-900/50 p-6 rounded-3xl border border-slate-800 hover:border-violet-500/30 transition duration-500">
             <h3 className="text-xl font-bold mb-6 flex items-center gap-2 text-violet-300"><FaCode /> Frontend</h3>
             <div className="flex flex-wrap gap-3">
-              {['React', 'Tailwind', 'Redux', 'HTML5', 'CSS3', 'Framer Motion'].map(s => <SkillBadge key={s} name={s} icon={<FaCheckCircle size={14} />} />)}
+              {['JAVA', 'Tailwind', 'HTML5', 'CSS3', 'Bootstrap','Python'].map(s => <SkillBadge key={s} name={s} icon={<FaCheckCircle size={14} />} />)}
             </div>
           </div>
           <div className="bg-slate-900/50 p-6 rounded-3xl border border-slate-800 hover:border-fuchsia-500/30 transition duration-500">
             <h3 className="text-xl font-bold mb-6 flex items-center gap-2 text-fuchsia-300"><FaDatabase /> Backend</h3>
             <div className="flex flex-wrap gap-3">
-              {['Node.js', 'Express', 'MongoDB', 'Firebase', 'REST API'].map(s => <SkillBadge key={s} name={s} icon={<FaCheckCircle size={14} />} />)}
+              {['My SQL', 'Django', 'MongoDB','SQLite'].map(s => <SkillBadge key={s} name={s} icon={<FaCheckCircle size={14} />} />)}
             </div>
           </div>
           <div className="bg-slate-900/50 p-6 rounded-3xl border border-slate-800 hover:border-cyan-500/30 transition duration-500">
             <h3 className="text-xl font-bold mb-6 flex items-center gap-2 text-cyan-300"><FaTools /> Tools</h3>
             <div className="flex flex-wrap gap-3">
-               {['Git', 'GitHub', 'VS Code', 'Postman', 'Vite'].map(s => <SkillBadge key={s} name={s} icon={<FaCheckCircle size={14} />} />)}
+               {['Git', 'GitHub', 'VS Code', 'Vite','MS Office'].map(s => <SkillBadge key={s} name={s} icon={<FaCheckCircle size={14} />} />)}
             </div>
           </div>
         </div>

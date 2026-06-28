@@ -21,40 +21,40 @@ export const projectsData = [
   },
   {
     id: 3,
-    title: "SkyCast - Weather App",
-    image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?auto=format&fit=crop&w=800&q=80",
-    desc: "Advanced weather dashboard with 7-day forecast and maps.",
-    tech: ["React", "OpenWeather API", "Chart.js"],
-    github: "https://github.com",
-    live: "https://skycast-demo.com"
+    title: "FloraCure - Agricultural Diseases identification And Cure Support System",
+    image: "/FloraCure_Profile.webp",
+    desc: "Instant Cure And Tips with user dashboard for previous History.",
+    tech: ["Python", "Django", "OpenWeather API", "ReportLab"],
+    github: "https://github.com/khanmunavvar/FloraCure",
+    //live: "https://skycast-demo.com"
   },
-   {
-    id: 4,
-    title: "SkyCast - Weather App",
-    image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?auto=format&fit=crop&w=800&q=80",
-    desc: "Advanced weather dashboard with 7-day forecast and maps.",
-    tech: ["React", "OpenWeather API", "Chart.js"],
-    github: "https://github.com",
-    live: "https://skycast-demo.com"
-  },
-   {
-    id: 5,
-    title: "SkyCast - Weather App",
-    image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?auto=format&fit=crop&w=800&q=80",
-    desc: "Advanced weather dashboard with 7-day forecast and maps.",
-    tech: ["React", "OpenWeather API", "Chart.js"],
-    github: "https://github.com",
-    live: "https://skycast-demo.com"
-  },
-   {
-    id: 6,
-    title: "SkyCast - Weather App",
-    image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?auto=format&fit=crop&w=800&q=80",
-    desc: "Advanced weather dashboard with 7-day forecast and maps.",
-    tech: ["React", "OpenWeather API", "Chart.js"],
-    github: "https://github.com",
-    live: "https://skycast-demo.com"
-  }
+  //  {
+  //   id: 4,
+  //   title: "SkyCast - Weather App",
+  //   image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?auto=format&fit=crop&w=800&q=80",
+  //   desc: "Advanced weather dashboard with 7-day forecast and maps.",
+  //   tech: ["React", "OpenWeather API", "Chart.js"],
+  //   github: "https://github.com",
+  //   live: "https://skycast-demo.com"
+  // },
+  //  {
+  //   id: 5,
+  //   title: "SkyCast - Weather App",
+  //   image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?auto=format&fit=crop&w=800&q=80",
+  //   desc: "Advanced weather dashboard with 7-day forecast and maps.",
+  //   tech: ["React", "OpenWeather API", "Chart.js"],
+  //   github: "https://github.com",
+  //   live: "https://skycast-demo.com"
+  // },
+  //  {
+  //   id: 6,
+  //   title: "SkyCast - Weather App",
+  //   image: "https://images.unsplash.com/photo-1590055531615-f16d36ffe8ec?auto=format&fit=crop&w=800&q=80",
+  //   desc: "Advanced weather dashboard with 7-day forecast and maps.",
+  //   tech: ["React", "OpenWeather API", "Chart.js"],
+  //   github: "https://github.com",
+  //   live: "https://skycast-demo.com"
+  // }
 ];
 
 export const navLinks = [
@@ -67,7 +67,7 @@ export const navLinks = [
 // NEW DATA FOR ABOUT SECTION
 export const educationData = [
   {
-    year: "2023 - Present",
+    year: "2023 - 2026",
     degree: "BCA in Computer Science",
     institution: "University of Lucknow, India",
     desc: "Currently in 5th Semester. Focusing on Full Stack Web Development."
